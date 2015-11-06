@@ -24,7 +24,33 @@
             </ul>
         </nav>
         <main>
-            <h2>UNDER CONSTRUCTION!</h2>
+            <h2>Reservations</h2>
+            <form method="post" action="http://webdevbasics.net/scripts/pacific.php
+">
+                <label for="FName">*First Name:</label>
+                <input type="text" name="FName" id="FName" Required="required*">
+                <br>
+                <label for="LName">*Last Name:</label>
+                <input type="text" name="LName" id="LName" required="required*">
+                <br>
+                <label for="Email">*Email:</label>
+                <input type="text" name="Email" id="Email" required="required*">
+                <br>
+                <label for="Tel">Phone:</label>
+                <input type="text" name="Tel" id="Phone" maxlength="10">
+                <br>
+                <label for="Arrival">*Arrival Date:</label>
+                <input type="text" name="Arrival" id="arrival" max="10" required="required*">
+                <br>
+                <label for="nights">*Nights:</label>
+                <input type="number" name="Nights" id="nights" min="1" max="30" required="required*">
+                <br>
+                <label for="comments">*Comments:</label>
+                <textarea name="comments" id="comments" rows="2" cols="40" name="Comments" required="required*"></textarea>
+                    <br>
+                    <br>
+                    <input type="submit" value="submit">
+            </form>
         </main>
         <footer>Copyright &copy; 2014 Pacific Trails Resort
             <br>
